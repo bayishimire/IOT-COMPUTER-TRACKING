@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 9px solid hsl(249, 78%, 46%);
+    border-radius: 5px;
+    background-color: hwb(125 7% 9%);
+}
+input[type="text"], input[type="file"], input[type="submit"], input[type="password"], input[type="email"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+}
+input[type="text"]::placeholder {
+    color: #007BFF;
+}
+input[type="submit"] {
+    background-color: hsl(318, 100%, 50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #008fb3;
+}

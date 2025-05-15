@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 9px solid #1ad367;
+    border-radius: 5px;
+    background-color: hsl(0, 4%, 25%);
+}
+input[type="text"], input[type="file"], input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+}
+input[type="text"]::placeholder {
+    color: #007BFF;
+}
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

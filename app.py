@@ -33,7 +33,7 @@ def greet():
     conn.commit()
     cursor.close()
     conn.close()
-    return f"<h2>Hello, {name}! Your email ({email}) has been saved in MySQL.</h2><a href='/'>Back</a>"
+    return f"<h2>Hello, {name}! Your email ({email}) has been saved in database don'worries  data saved .</h2><a href='/'>Back</a>"
 if __name__ == '__main__':
     app.run(debug=True)
 
